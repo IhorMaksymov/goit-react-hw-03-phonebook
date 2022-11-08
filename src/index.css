@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import '~@csstools/normalize.css';
 
 body {
   margin: 0;
@@ -12,4 +12,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
